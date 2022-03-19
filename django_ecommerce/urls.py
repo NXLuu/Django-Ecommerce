@@ -30,6 +30,7 @@ urlpatterns = [
     path('cart/', include('cart.urls')),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('signin/', include('signup.urls')),
+    path('manager/', include('manager.urls'))
 ]
 
 urlpatterns += staticfiles_urlpatterns()

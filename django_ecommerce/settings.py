@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'author',
     'account',
 
-    'signup'
+    'signup',
+    'manager'
 ]
 
 MIDDLEWARE = [
